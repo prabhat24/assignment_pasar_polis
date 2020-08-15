@@ -16,7 +16,7 @@ where x1 & x2 are 2 strings and f(x) is special hash function. <br>
 example of one such hash function can be-
 let x be the string of length L
 ```
-    f(x) = x[0] * L + x[1] * (L-1) + x[2] * (L-2) ......x[L-1] * L
+    f(x) = x[0] * L + x[1] * (L-1) + x[2] * (L-2) ......x[L-1] * 1
 ```
 #### Time Complexity
 N + 1024(worst case) * N + N (worst)
